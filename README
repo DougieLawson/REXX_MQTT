@@ -1,4 +1,4 @@
-This is a sample of how to use the MQTT V3.1 protocol with a rexx programm.  It was written using Regina REXX with an add-on Rxsock library.
+This is a sample of how to use the MQTT V3.1 protocol with a rexx program.  It was written using Regina REXX with an add-on Rxsock library.
 
 It should work with ooRexx (with the built in REXX sockets) but I've not tried it.
 
@@ -10,6 +10,7 @@ dl1ims@gmail.com
 
 http://mqtt.org
 http://mosquitto.org
+http://downloads.sourceforge.net/project/rxsock/rxsock/1.4/RxSock-1.4.tar.gz
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
