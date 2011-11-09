@@ -10,7 +10,8 @@ dl1ims@gmail.com
 
 http://mqtt.org
 http://mosquitto.org
-http://downloads.sourceforge.net/project/rxsock/rxsock/1.4/RxSock-1.4.tar.gz
+
+On Ubuntu you'll need Regina and the development library (`apt-get install regina-rexx libregina3-dev`). Regina doesn't include a RxSock package so you'll need to install that package from http://downloads.sourceforge.net/project/rxsock/rxsock/1.4/RxSock-1.4.tar.gz (sorry it isn't available ready built).
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
