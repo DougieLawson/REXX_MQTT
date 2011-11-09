@@ -42,7 +42,7 @@ mqtt_length_encode: procedure
       x = x % 128
  
       if x > 0 then digit = digit + 128
-      remlen = remlen || d2x(digit)
+      remlen = remlen || d2x(digit,2)
 
    end
 
@@ -56,7 +56,7 @@ mqtt_length_decode: procedure
    multiplier = 1
    value = 0
    done = 0
-   offset = 2
+   offset = 3
    do i = 1 to length(digits) by 2
 
       digit = x2d(substr(digits,i,2))
